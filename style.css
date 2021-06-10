@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pattaya', sans-serif;
+}
+.img1{
+    width: 50px;
+    height: 50px;
+}
+#lgtxt{
+    color: aliceblue;
+    padding: 10px;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to left, brown, darkgray);
+    font-family: 'Pattaya', sans-serif;
+    justify-content: space-around;
+}
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+}
+.logo{
+    flex-basis: 350px;
+    display: flex;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+.options{
+    color: black;
+    text-decoration: none;
+}
+.options:hover{
+    color: aliceblue;
+    text-decoration: none;
+}
+#ai{
+    font-size: 1.5rem;
+}
+.info{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+#circle{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: 1s;
+    
+}
+.overlay{
+    width: 0;
+    height: 0;
+    border-top: 500px solid black;
+    border-right: 500px solid transparent;
+    border-left: 500px solid black;
+    border-bottom: 500px solid black;
+    left: 0;
+    top: 0;
+}
+.feature{
+    position: absolute;
+    display: flex;
+}
+.feature img{
+    width: 150px;
+}
+.img2{
+    top: 300px;
+    right: 100px;
+    transform: rotate(0deg);
+}
+.img3{
+    right: 450px;
+    top: 100px;
+    transform: rotate(-90deg);
+}
+#i3{
+    width: 250px;
+}
+.img4{
+    top: 450px;
+    left: 50px;
+    transform: rotate(-180deg);
+    height: 200px;
+}
+.img5{
+    top: 700px;
+    right: 400px;
+    transform: rotate(-270deg);
+}
+.text1{
+    position: absolute;
+    margin-top: 250px;
+}
+.text2{
+    position: absolute;
+    margin-top: 170px;
+}
+.text3{
+    position: absolute;
+    margin-top: 190px;
+}
+.text4{
+    position: absolute;
+    margin-top: 210px;
+}
+#c1{
+    width: 100px;
+    cursor: pointer;
+}
+#c2{
+    width: 100px;
+    cursor: pointer;
+}
+.change{
+    position: absolute;
+    left: 1200px;
+    top: 230px;
+    text-align: center;
+}
+#ctext{
+    margin: 20px;
+    color: black;
+}
+#txt{
+    color: black;
+}
